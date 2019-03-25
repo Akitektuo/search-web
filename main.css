@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+div.header {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0 8px 6px -6px gray;
+}
+
+div.header img.arrow {
+    margin-left: 8px;
+    border: solid silver 1px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+div.lorem-text {
+    padding: 64px 25%;
+    overflow-y: scroll;
+    max-height: calc(100% - 194px);
+}
